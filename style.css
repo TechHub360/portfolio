@@ -1,0 +1,119 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url(bgg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #5a2dc4, #5a2dc4);
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Sections */
+section {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color:#6046E8;
+  border-bottom: 2px solid #dce1e6;
+  padding-bottom: 5px;
+}
+
+/* Skills list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #e8f0fe;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  color: #1a237e;
+  font-weight: bold;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 30px;
+  top: calc(100px + 20px);
+  right: 20px;
+}
+
+.project h3 {
+  color: #34495e;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+#contact a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #1e88e5;
+  color: #fff;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+#contact a:hover {
+  background: #1565c0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
+}
