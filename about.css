@@ -1,0 +1,63 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdf6ec;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #4b2e2b;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 1.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover,
+nav a.active {
+    color: #d1a77c;
+}
+
+/* Main content */
+.about-content {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    color: #333;
+}
+.about-content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4b2e2b;
+    margin-bottom: 1.5rem;
+}
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+}
+
+/* Footer */
+footer {
+    background: #4b2e2b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}

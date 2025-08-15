@@ -1,0 +1,244 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & fonts */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #eee;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1de9b6;
+  letter-spacing: 2px;
+}
+.nav a {
+  color: #eee;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #1de9b6;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  background: linear-gradient(135deg, #1de9b6 0%, #00bcd4 100%);
+  color: #000;
+  border-radius: 0 0 40px 40px;
+}
+.hero-content {
+  max-width: 50%;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.85;
+}
+.btn-primary {
+  background: #000;
+  color: #1de9b6;
+  padding: 0.85rem 2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background: #222;
+}
+.hero-image img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(29, 233, 182, 0.5);
+}
+
+/* Features */
+.features {
+  padding: 4rem 3rem;
+  background: #181818;
+  text-align: center;
+  padding-top: 80px;}
+.features h2 {
+  font-size: 2.75rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #1de9b6;
+}
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.feature {
+  flex: 1 1 280px;
+  background: #222;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #0f9d85;
+  transition: transform 0.3s ease;
+}
+.feature:hover {
+  transform: translateY(-10px);
+}
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1de9b6;
+}
+.feature p {
+  color: #bbb;
+  font-size: 1rem;
+}
+
+/* Pricing */
+.pricing {
+  background: #121212;
+  padding: 4rem 3rem;
+  text-align: center;
+  padding-top: 80px;
+}
+.pricing h2 {
+  font-size: 2.75rem;
+  margin-bottom: 3rem;
+  color: #1de9b6;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.card {
+  background: #222;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 280px;
+  box-shadow: 0 0 20px #0f9d85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-15px);
+}
+.card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: #1de9b6;
+}
+.card p {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #eee;
+}
+.card ul {
+  list-style: none;
+  margin-bottom: 2rem;
+  color: #bbb;
+  text-align: left;
+  width: 100%;
+  padding-left: 1rem;
+}
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+.card button {
+  background: #1de9b6;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+.card button:hover {
+  background: #14b88f;
+}
+
+/* Download */
+.download {
+  background: #181818;
+  text-align: center;
+  padding: 3rem 2rem 5rem;
+  color: #bbb;
+}
+.download h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1de9b6;
+}
+.download p {
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+}
+.app-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn-secondary {
+  border: 2px solid #1de9b6;
+  color: #1de9b6;
+  padding: 0.85rem 2rem;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background-color: #1de9b6;
+  color: #000;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: #555;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
