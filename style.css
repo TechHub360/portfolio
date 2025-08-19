@@ -13,7 +13,7 @@ body {
   color: #2c3e50;
   padding: 20px;
   box-sizing: border-box;
-  background-image: url(bgg.png);
+  background-image: "bgg.png";
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -117,3 +117,4 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
